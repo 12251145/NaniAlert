@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'NaniAlert_Example' do
+  pod 'NaniAlert', :path => '../'
+
+  target 'NaniAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
