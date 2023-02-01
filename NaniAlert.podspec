@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NaniAlert'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NaniAlert.'
+  s.summary          = 'You can show NaniAlert.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,6 +29,8 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '16.1'
+  
+  s.swift_versions = '5.0'
 
   s.source_files = 'NaniAlert/Classes/**/*'
   s.frameworks = "UIKit"
