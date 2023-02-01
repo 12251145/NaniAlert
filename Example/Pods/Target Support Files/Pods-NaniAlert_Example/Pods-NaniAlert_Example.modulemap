@@ -1,0 +1,6 @@
+framework module Pods_NaniAlert_Example {
+  umbrella header "Pods-NaniAlert_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

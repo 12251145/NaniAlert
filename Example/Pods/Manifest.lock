@@ -1,0 +1,16 @@
+PODS:
+  - NaniAlert (0.1.0)
+
+DEPENDENCIES:
+  - NaniAlert (from `../`)
+
+EXTERNAL SOURCES:
+  NaniAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NaniAlert: 297092deb8f7b2c0efa37ea48f29718705ca2c35
+
+PODFILE CHECKSUM: 7ba01bcc284c51f99563414a56b32952d22e2d95
+
+COCOAPODS: 1.11.3

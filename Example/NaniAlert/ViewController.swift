@@ -6,10 +6,11 @@
 //  Copyright (c) 2023 12251145. All rights reserved.
 //
 
+import NaniAlert
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,6 +20,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    
+    @IBAction func showAlert(_ sender: Any) {
+        NaniAlert(title: "Nani!?", confirm: "YES") {
+            print("!?")
+        }.show(in: view)
+        
+        
+    }
+    
 }
 

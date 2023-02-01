@@ -1,0 +1,6 @@
+framework module NaniAlert {
+  umbrella header "NaniAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}
